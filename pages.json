@@ -1,0 +1,141 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#FF8666",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home1.png",
+				"selectedIconPath": "static/tabbar/hom2.png",
+				"text": "订单首页"
+			},
+			{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabbar/center1.png",
+				"selectedIconPath": "static/tabbar/center2.png",
+				"text": "人员中心"
+			},
+			{
+				"pagePath": "pages/orderManagement/orderManagement",
+				"iconPath": "static/tabbar/management1.png",
+				"selectedIconPath": "static/tabbar/management2.png",
+				"text": "订单管理"
+			},
+			{
+				"pagePath": "pages/apply/apply",
+				"iconPath": "static/tabbar/apply1.png",
+				"selectedIconPath": "static/tabbar/Apply2.png",
+				"text": "申请管理"
+			}
+		]
+	},
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"titleNView": false, //禁用原生导航栏
+				"app-plus": {
+					"softinputNavBar": "none",
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"titleNView": false, //禁用原生导航栏
+				"app-plus": {
+					"softinputNavBar": "none",
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "订单反馈",
+				"app-plus": {
+					"softinputMode": "adjustResize",
+					"titleNView": {
+						"backgroundColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/center/center",
+			"style": {
+				"navigationBarTitleText": "人员中心",
+				"titleNView": false, //禁用原生导航栏
+				"app-plus": {
+					"softinputNavBar": "none",
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/orderManagement/orderManagement",
+			"style": {
+				"navigationBarTitleText": "订单管理",
+				"titleNView": false, //禁用原生导航栏
+				
+				"app-plus": {
+					"softinputNavBar": "none",
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/nameList/nameList",
+			"style": {
+				"navigationBarTitleText": "订单管理",
+				"titleNView": false, //禁用原生导航栏
+				// "enablePullDownRefresh": true,
+				"onReachBottomDistance":100,
+				"app-plus": {
+					"softinputNavBar": "none",
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/apply/apply",
+			"style": {
+				"navigationBarTitleText": "申请管理",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"titleNView": false, //禁用原生导航栏
+				"app-plus": {
+					"softinputNavBar": "none",
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "站长端",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
